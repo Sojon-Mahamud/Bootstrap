@@ -1,0 +1,2699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Exercise</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>My Name is Sojon Mahamud..! i am from Gazipur, Dhaka, Bangladesh</h1>
+        <p>Have a nice day Baby</p>
+    </div>
+    <div class="container-fluid border bg-black text-white">
+        <h1>This container is for fluid </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel impedit velit inventore, repellat temporibus deserunt nam dicta, quaerat amet, saepe iusto cum reprehenderit mollitia. Incidunt, nobis. Quos eum ad voluptatem?</p>
+    </div>
+    <div class="container p-5 my-5 bg-primary text-white">
+        <h1>My Name is Mahamud</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam explicabo enim voluptas asperiores nulla, delectus ullam, veritatis accusantium possimus laudantium! Nam nisi dolores iusto assumenda provident minus est enim.</p>
+    </div>
+    <div class="container-sm border ">
+        <h1>This is a small Container</h1>
+    </div>
+    <div class="container-lg border bg-black text-white">
+        <h1>This is a large container</h1>
+    </div>
+    <div class="container-xxl border bg-primary">
+        <h1>This container is xxl Size</h1>
+    </div>
+    <h1>Grid System</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 bg-primary p-3 text-white">column 1</div>
+            <div class="col-6 bg-black text-white p-3">column 2</div>
+            <div class="col bg-primary text-white p-3">column 3</div>
+        </div>
+    </div>
+    <!--Typography-->
+    <div class="container">
+        <p class="h1">Display Handling</p>
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+        <h1 class="display-5">Display 5</h1>
+        <h1 class="display-6">Display 6</h1>
+        <h1>Smaller secondary text</h1>
+        <h1>Small heading <small>Secondary text</small></h1>
+        <h2>Small heading <small>secondary text</small></h2>
+        <h1>Highlight text</h1>
+        <p>Lorem ipsum dolor sit amet <mark>consectetur</mark>, adipisicing elit. Deleniti quo soluta labore! Esse facere veritatis voluptates nostrum ad, perferendis recusandae,<mark>Sujon</mark> inventore optio sit sint alias necessitatibus hic vitae? Blanditiis, commodi.</p>
+        <h1><mark>Abbrivation</mark></h1>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948</p>
+        <h1><mark>Blockquote</mark></h1>
+        <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ea vitae recusandae? Laborum, veniam autem a dignissimos sit vero consequatur corporis mollitia eaque <!--earum-->, cumque magni cupiditate magnam veritatis eius?</p>
+            <footer class="blockquote-footer">From Lorem ipsum</footer>
+        </blockquote>
+        <!-- Description List -->
+         <dl>
+            <dt>Coffee</dt><!--dt means Description title-->
+            <dd>-Black Hot Drink</dd><!--dd means Description defination-->
+            <dt>Milk</dt>
+            <dd>-White cold Drink</dd>
+         </dl>
+         <p>Lorem ipsum <code>dolor</code> sit amet consectetur adipisicing elit. Excepturi porro voluptate molestiae dolore! Quae <code>Spam</code> sed impedit eveniet repellat praesentium. Cum eveniet blanditiis corrupti rerum, harum cumque? Assumenda debitis aspernatur obcaecati.</p>
+
+         <!--Keyboard inputs (<kbd>)-->
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique ut rem doloribus dignissimos <kbd>ctrl + P</kbd>suscipit sed! Mollitia amet, provident <kbd>ctrl + z</kbd>asperiores modi accusantium perferendis voluptas aliquid cum repudiandae a, nam placeat sed.</p>
+
+        <pre>
+        Text in a pre element
+        is displayed in a fixed-width
+        font, and it preserves
+        both      spaces and
+        line breaks.
+        </pre>
+        
+        <p>Use the .lead class to make a paragraph "stand out":</p>
+        <p class="lead">This is a stand out</p>
+        <p>This is a regular paragraph</p>
+    </div>
+    <div class="container mt-3 border bg-primary text-white">
+        <p class="text-start">This is a left start text.</p>
+        <p class="text-end">This is right text.</p>
+        <p class="text-center">this is a center text.</p>
+        <p class="text-nowarp">Tis is a no warp text . My name is tasfin.</p>
+        <p class="text-break">
+        this is a text break 
+        my name is sujon 
+        lets play with bt-5
+        </p>
+    </div>
+    <div class="container">
+        <a href="#" class="text-decoration-none text-dark">A link without under line.</a>
+        <h1 class="text-lowercase">This is a lowerCased text.</h1>
+        <h1 class="text-uppercase">This is a uppercased text.</h1>
+        <h1 class="text-capitalize">This is a capitalized text.</h1>
+        <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948. (This is a normal abbr)</p>
+        <P>The <abbr title="World health Organization" class="initialism">WHO</abbr> was founded in 1948.(smaller abbr)</P>
+        <ul class="list-unstyled">
+            <li>Coffee</li>
+            <li>Tea
+                <ul>
+                    <li>Hot Tea</li>
+                    <li>Black Tea</li>
+                </ul>
+            </li>
+            <li>Milk</li>
+        </ul>
+        <ul class="list-inline">
+            <li class="list-inline-item">Coffee</li>
+            <li class="list-inline-item">Milk</li>
+            <li class="list-inline-item">Tea</li>
+        </ul>
+    </div>
+    <div class="container mt-3">
+        <h1>However, you can use the <mark>.text-bg-color</mark> classes and Bootstrap will automatically handle the appropriate text color for each background color.</h1>
+        <p class="text-bg-primary">This text is important.</p>
+        <p class="text-bg-success">This text indicates Success</p>
+        <p class="text-bg-info">This text represents some information.</p>
+        <p class="text-bg-warning">This text represents warning.</p>
+        <p class="text-bg-danger">This text represents Danger.</p>
+        <p class="text-bg-secondary">Secondary Background color.</p>
+        <p class="text-bg-dark">Dark Grey Background color.</p>
+        <p class="text-bg-light">Light grey Background color.</p>
+    </div>
+    <div class="container-fluid mt-3">
+        <h1>The <mark>.table-striped</mark> class adds zebra-stripes to a table:</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Phone Number</th>
+                    <th>Email Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sojon</td>
+                    <td>Mahamud</td>
+                    <td>01783323411</td>
+                    <td>sojonmahamud554@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Minhaz</td>
+                    <td>Uddin</td>
+                    <td>01313161328</td>
+                    <td>minhazuddin@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Bari</td>
+                    <td>Shohag</td>
+                    <td>01886795844</td>
+                    <td>barishohag@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-fluid mt-3">
+        <h1>The <mark>.table-bordered</mark>class adds borders on all sides of the table and cells: And The <mark>.table-hover</mark> class enables a hover state (grey background on mouse over) on table rows:</h1>
+        <table class="table table-bordered mt-5 table-hover">
+            <thead>
+                <tr>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Semester</td>
+                    <td>CGPA</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sojon</td>
+                    <td>Mahamud</td>
+                    <td>Spring-2026</td>
+                    <td>3.11</td>
+                </tr>
+                <tr>
+                    <td>Minhaz</td>
+                    <td>Uddin</td>
+                    <td>Fall-2026</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>Al</td>
+                    <td>Amin</td>
+                    <td>Summer-2026</td>
+                    <td>2.80</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-fluid mt-5">
+        <h3>The <mark>.table-dark</mark> class adds a black background to the table and <mark>table-striped</mark> to create a dark, striped table:</h3>
+        <table class="table table-dark table-striped mt-3">
+            <thead>
+                <tr>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Email Address</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sojon</td>
+                    <td>Mahamud</td>
+                    <td>sojonmahamud28sep@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Minhaz</td>
+                    <td>Uddin</td>
+                    <td>minhazuddin@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Bari</td>
+                    <td>Samad</td>
+                    <td>barisamad@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-fluid mt-5">
+        <h3>The <mark>.table-sm</mark> class makes the table smaller by cutting cell padding in half:</h3>
+        <table class="table table-bordered table-hover table-sm mt-3">
+            <thead>
+                <tr class="table-dark">
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Deafult</td>
+                    <td>Color</td>
+                    <td>deafultcolor@gmail.com</td>
+                </tr>
+                <tr class="table-primary">
+                    <td>Primary</td>
+                    <td>Color</td>
+                    <td>primary@gmail.com</td>
+                </tr>
+                <tr class="table-success">
+                    <td>Success</td>
+                    <td>Color</td>
+                    <td>success@gmail.com</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>Danger</td>
+                    <td>color</td>
+                    <td>danger@gmail.com</td>
+                </tr>
+                <tr class="table-info">
+                    <td>Info</td>
+                    <td>Color</td>
+                    <td>info@gmail.com</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>Warning</td>
+                    <td>Color</td>
+                    <td>warning@gmail.com</td>
+                </tr>
+                <tr class="table-active">
+                    <td>Active</td>
+                    <td>color</td>
+                    <td>active@gmail.com</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>Secondary</td>
+                    <td>color</td>
+                    <td>secondary@gmail.com</td>
+                </tr>
+                <tr class="table-light">
+                    <td>Light</td>
+                    <td>Color</td>
+                    <td>lightcolor@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-fluid">
+        <h3>Table Responsive.The <mark>.table-responsive</mark> class adds a scrollbar to the table when needed (when it is too big horizontally :</h3>
+        <div class="table-responsive-xxl">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Age</th>
+                        <th>City</th>
+                        <th>Country</th>
+                        <th>Sex</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Anna</td>
+                        <td>Pitt</td>
+                        <td>35</td>
+                        <td>New York</td>
+                        <td>USA</td>
+                        <td>Female</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h3>The <mark>.rounded</mark> class adds rounded corners to an image and The <mark>.float-start</mark> means this image position is first or left side of the page and The <mark>.rounded-circle</mark> class shapes the image to a circle: and The <mark>.img-thumbnail</mark> class creates a thumbnail of the image and Center an image by adding the utility classes <mark>.mx-auto (margin:auto)</mark> and <mark>.d-block</mark> (display:block) to the image:</h3>
+        <h4 class="text-start mt-4">Rounded float start image</h4>
+        <image src="image1.jpg" class="rounded float-start" alt="Sojon_Group_image" width="300px" height="250px"></image>
+        <h4 class="text-end mt-4">Rounded-circle float-end image</h4>
+        <image src="image1.jpg" class="rounded-circle float-end" alt="Grouped image" width="300px" height="250px"></image>
+        <h4 class="text-center">img-thumbnail</h4>
+        <image src="image1.jpg" class="img-thumbnail mx-auto d-block" alt="Group image" width="300px" heigh="250px"></image>
+        <h2>The <mark>.img-fluid</mark> class makes the image scale nicely to the parent element (resize the browser window to see the effect):</h2>
+        <image src="image1.jpg" alt="grouped image" class="img-fluid"></image>
+    </div>
+    <div class="container mt-4">
+        <h2>Alerts</h2>
+        <p>Alerts are created with the <mark>.alert</mark> class, followed by a contextual color classes:</p>
+        <div class="alert alert-success">
+            <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info">
+            <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning">
+            <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="alert alert-danger">
+            <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div class="alert alert-primary">
+            <strong>Primary!</strong> Indicates an important action.
+        </div>
+        <div class="alert alert-secondary">
+            <strong>Secondary!</strong> Indicates a slightly less important action.
+        </div>
+        <div class="alert alert-dark">
+            <strong>Dark!</strong> Dark grey alert.
+        </div>
+        <div class="alert alert-light">
+            <strong>Light!</strong> Light grey alert.
+        </div>
+        <p class="mt-4">Add the <mark>.alert-link</mark> class to any links inside the alert box to create "matching colored links".</p>
+        <div class="alert alert-success text-start">
+            <strong>Success!</strong> You should <a href="#" class="alert-link text-decoration-none">read this message.</a>
+        </div>
+        <div class="alert alert-info text-center">
+            <strong>Info!</strong> You should <a href="#" class="alert-link text-decoration-none">read this message.</a>
+        </div>
+        <div class="alert alert-warning text-end">
+            <strong>Warning!</strong> You should <a href="#" class="alert-link text-decoration-none">read this message.</a>
+        </div>
+        <div class="alert alert-danger text-center">
+            <strong>Danger!</strong> You should <a href="#" class="alert-link text-decoration-none">read this message.</a>
+        </div>
+        <div class="alert alert-primary text-start">
+            <strong>Primary!</strong> You should <a href="#" class="alert-link text-decoration-none">read this message.</a>
+        </div>
+        <div class="alert alert-secondary text-center">
+            <strong>Secondary!</strong> You should <a href="#" class="alert-link text-decoration-none">read this message.</a>
+        </div>
+        <div class="alert alert-dark text-end">
+            <strong>Dark!</strong> You should <a href="#" class="alert-link text-decoration-none">read this message.</a>
+        </div>
+        <div class="alert alert-light text-center">
+            <strong>Light!</strong> You should <a href="#" class="alert-link text-decoration-none"><kbd>read this message.</kbd></a>
+        </div>
+        <h3>Alerts Close Button</h3>
+
+        <p>The button with <mark>class="btn-close"</mark> and <mark>data-bs-dismiss="alert"</mark> is used to close the alert box.</p>
+        <p>The <mark>alert-dismissible</mark> class aligns the button to the right.</p>
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Success!</strong> This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
+        </div>
+        <div class="alert alert-warning alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+        </div>
+        <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+        </div>
+        <div class="alert alert-primary alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Primary!</strong> Indicates an important action.
+        </div>
+        <div class="alert alert-secondary alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Secondary</strong> Indicates a slightly less important action.
+        </div>
+        <div class="alert alert-dark alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Dark!</strong> Dark grey alert.
+        </div>
+        <div class="alert alert-light alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Light!</strong> Light grey alert.
+        </div>
+        <h3>Alerts Animation</h3>
+        <p>The <mark>.fade and .show</mark> classes adds a fading effect when closing the alert message:</p>
+        <div class="alert alert-success alert-dismissible fade show text-center">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Success!</strong> 
+        </div>
+        <div class="alert alert-info alert-dismissible fade show text-center">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Info!</strong>
+        </div>
+        <div class="alert alert-warning alert-dismissible fade show text-center">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Warning!</strong>
+        </div>
+        <div class="alert alert-danger alert-dismissible fade show text-center">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Danger!</strong>
+        </div>
+        <div class="alert alert-primary alert-dismissible fade show text-center">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Primary!</strong>
+        </div>
+        <div class="alert alert-secondary text-center alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Secondary!</strong>
+        </div>
+        <div class="alert alert-dark text-center alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Dark</strong>
+        </div>
+        <div class="alert alert-light text-center alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Light</strong>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h3>Button Styles :</h3>
+        <button type="button" class="btn">Basics</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-link">Link</button>
+        <h2>Button Elements :</h2>
+        <a href="#" class="btn btn-primary">Link Button</a>
+        <button type="button" class="btn btn-danger">Button</button>
+        <input type="button" class="btn btn-dark" value="Input Button">
+        <input type="submit" class="btn btn-success" value="Submit Button">
+        <input type="reset" class="btn btn-light" value="Reset Button">
+        <h2>Button Outline :</h2>
+        <button type="button" class="btn btn-outline-primary">Primary</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+        <button type="button" class="btn btn-outline-warning">Warning</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-danger">Danger</button>
+        <button type="button" class="btn btn-outline-dark">Dark</button>
+        <button type="button" class="btn btn-outline-info">Info</button>
+        <button type="button" class="btn btn-outline-light text-dark">Light</button>
+        <h2>Button Sizes :</h2>
+        <button type="button" class="btn btn-primary btn-sm">Small Button</button>
+        <button type="button" class="btn btn-danger btn-md">Defult Button</button>
+        <button type="button" class="btn btn-warning btn-lg">Large Button</button>
+        <h2>Block Level Button:</h2>
+        <p>To create a block level button that spans the entire width of the parent element, use the <mark>.d-grid</mark> "helper" class on the parent element:</p>
+        <div class="d-grid">
+            <button type="button" class="btn btn-outline-info btn-block">Full-Width Button</button>
+        </div>
+        <p class="mt-5">If you have many block-level buttons, you can control the space between them with the <mark>.gap-*</mark> class:</p>
+        <div class="d-grid gap-3">
+            <button type="button" class="btn btn-outline-primary btn-block">Full-Width Button</button>
+            <button type="button" class="btn btn-outline-secondary btn-block">Full-Width Button</button>
+            <button type="button" class="btn btn-outline-danger btn-block">Full-Width Button</button>
+        </div>
+        <h2>Button States :</h2>
+        <p>The class <mark>.active</mark> makes a button appear pressed, and the disabled attribute makes a button unclickable. Note that <a> elements do not support the disabled attribute and must therefore use the <mark>.disabled</mark> class to make it visually appear disabled.</p>
+        <button type="button" class="btn btn-primary">Primary</button> 
+        <button type="button" class="btn btn-primary active">Active Primary</button>
+        <button type="button" class="btn btn-primary disabled">Disabled Button</button>
+        <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+        <h2>Spinner</h2>
+        <p>Add Spinner to a button :</p>
+        <button type="button" class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span>
+        </button>
+        <button type="button" class="btn btn-info">
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading...
+        </button>
+        <button type="button" class="btn btn-info disabled">
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading...
+        </button>
+        <button type="button" class="btn btn-danger disabled">
+            <span class="spinner-grow spinner-grow-sm"></span>
+            Loading...
+        </button>
+        <h3>Button Groups</h3>
+        <p>Use a div element with class <mark>.btn-group</mark> to create a button group:</p>
+        <div class="btn-group">
+            <button type="button" class="btn btn-warning">Apple</button>
+            <button type="button" class="btn btn-danger">Mango</button>
+            <button type="button" class="btn btn-info">Banana</button>
+        </div>
+        <p>Instead of applying button sizes to every button in a group, use class .<mark>btn-group-lg</mark> for a large button group or the <mark>.btn-group-sm</mark> for a small button group and use class <mark>.btn-group-md</mark> for a default or medium size :</p>
+        <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-warning">Apple</button>
+            <button type="button" class="btn btn-danger">Mango</button>
+            <button type="button" class="btn btn-info">Banana</button>
+        </div>
+        <div class="btn-group btn-group-md">
+            <button type="button" class="btn btn-dark">Apple</button>
+            <button type="button" class="btn btn-primary">Mango</button>
+            <button type="button" class="btn btn-light">Banana</button>
+        </div>
+        <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-secondary">Apple</button>
+            <button type="button" class="btn btn-success">Mango</button>
+            <button type="button" class="btn btn-danger">Banana</button>
+        </div>
+        <h2>Vertical Button Groups :</h2>
+        <p>Use the class <mark>.btn-group-vertical</mark> to create a vertical button group:</p>
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-light">Click me!</button>
+            <button type="button" class="btn btn-info">Sign Up</button>
+            <button type="button" class="btn btn-primary">Log In</button>
+        </div>
+        <h2>Nesting Button Groups & Dropdown Menus :</h2>
+        <div class="btn-group">
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Apple</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Potassium</a></li>
+                    <li><a class="dropdown-item" href="#">Vitamin C</a></li>
+                    <li><a class="dropdown-item" href="#">Fiber</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">Banana</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Bananatree</a></li>
+                    <li><a class="dropdown-item" href="#">Vitamin C</a></li>
+                    <li><a class="dropdown-item" href="#">Fiber</a></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Mango</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">VitaminA</a></li>
+                    <li><a class="dropdown-item" href="#">VitaminC</a></li>
+                    <li><a class="dropdown-item" href="#">Sweet Fruit</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h2>Badges :</h2>
+        <p>Badges are used to add additional information to any content:</p>
+        <h1>Example Badge <span class="badge bg-primary">New</span></h1>
+        <h2>Example Badge <span class="badge bg-warning">New</span></h2>
+        <h3>Example Badge <span class="badge bg-danger">New</span></h3>
+        <h4>Example Badge <span class="badge bg-secondary">New</span></h4>
+        <h5>Example Badge <span class="badge bg-dark">New</span></h5>
+        <h6>Example Badge <span class="badge bg-info">New</span></h6>
+        <h2>Badge inside an Element :</h2>
+        <button type="button" class="btn btn-primary">Message <span class="badge bg-danger">7</span></button>
+        <button type="button" class="btn btn-info">Notification <span class="badge bg-dark">10</span></button>
+    </div>
+    <div class="container mt-3">
+        <h2>Progress Bar :</h2>
+        <p>To create a default progress bar, add a <mark>.progress</mark> class to a container element and add the <mark>.progress-bar</mark> class to its child element. Use the CSS width property to set the <mark>width</mark> of the progress bar The height of the progress bar is <mark>1rem (usually 16px)</mark> by default. Use the CSS height property to change it :</p>
+        <div class="progress" style="height: 10px;">
+            <div class="progress-bar" style="width: 40%;">40%</div>
+        </div>
+        <br>
+        <div class="progress" style="height: 20px;">
+            <div class="progress-bar bg-info" style="width: 50%;">50%</div>
+        </div>
+        <br>
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar bg-danger" style="width: 70%;">70%</div>
+        </div>
+        <h2 class="mt-3">Striped Progress Bars :</h2>
+        <p>Use the <mark>.progress-bar-striped</mark> class to add stripes to the progress bars:</p>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped" style="width: 40%;"></div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-success" style="width: 50%;"></div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped bg-danger" style="width: 60%;"></div>
+        </div>
+        <h2 class="mt-3">Animated Progress Bar</h2>
+        <p>Add the <mark>.progress-bar-animated</mark> class to animate the progress bar:</p>
+        <div class="progress">
+            <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 80%;">80%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 50%;">50%</div>
+        </div>
+        <h2 class="mt-3">Multiple Progress Bars :</h2>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 30%;">Success</div>
+            <div class="progress-bar bg-warning" style="width: 10%;">Warning</div>
+            <div class="progress-bar bg-danger" style="width: 20%;">Danger</div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h2>Spinners :</h2>
+        <div class="spinner-border text-muted"></div>
+        <div class="spinner-border text-primary"></div>
+        <div class="spinner-border text-info"></div>
+        <div class="spinner-border text-success"></div>
+        <div class="spinner-border text-warning"></div>
+        <div class="spinner-border text-danger"></div>
+        <div class="spinner-border text-secondary"></div>
+        <div class="spinner-border text-dark"></div>
+        <div class="spinner-border text-light"></div>
+        <h2 class="mt-5">Growing Spinners :</h2>
+        <div class="spinner-grow text-muted"></div>
+        <div class="spinner-grow text-primary"></div>
+        <div class="spinner-grow text-info"></div>
+        <div class="spinner-grow text-success"></div>
+        <div class="spinner-grow text-warning"></div>
+        <div class="spinner-grow text-danger"></div>
+        <div class="spinner-grow text-secondary"></div>
+        <div class="spinner-grow text-dark"></div>
+        <div class="spinner-grow text-light"></div>
+        <h2 class="mt-4">Spinner Buttons :</h2>
+        <button class="btn btn-success">
+            <span class="spinner-border spinner-border-sm text-info"></span>
+            Loading...
+        </button>
+        <button class="btn btn-warning">
+            <span class="spinner-grow text-danger spinner-grow-sm"></span>
+            Loading...
+        </button>
+    </div>
+    <div class="container mt-3">
+        <h2>Basic Pagination :</h2>
+        <p>To create a basic pagination, add the <mark>.pagination</mark> class to an <mark>ul</mark> element. Then add the <mark>.page-item</mark> to each li element and a <mark>.page-link</mark> class to each link inside li and The <mark>.active</mark> class is used to "highlight" the current page and The <mark>.disabled</mark> class is used for un-clickable links:</p>
+        <ul class="pagination">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+        <br>
+        <h2>Pagination Sizing :</h2>
+        <p>Add class <mark>.pagination-lg</mark> for larger blocks or <mark>.pagination-sm</mark> for smaller blocks:</p>
+        <ul class="pagination pagination-lg">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+        <ul class="pagination pagination-md">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+        <ul class="pagination pagination-sm">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+        <br>
+        <h2>Pagination Alignments :</h2>
+        <p>The <mark>.justify-content-start</mark> meams the pagination is Start Position and The <mark>.Justify-content-center</mark> means the pagination is in center position and the <mark>.justify-content-end</mark> means the pagination is in End Position :</p>
+        <ul class="pagination justify-content-start">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+        <ul class="pagination justify-content-end">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+        <br>
+        <h2>Breadcrumb :</h2>
+        <p>The <mark>.breadcrumb</mark> class indicates the current page's location within a navigational hierarchy:</p>
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Photo</a></li>
+            <li class="breadcrumb-item"><a href="#">Rome</a></li>
+            <li class="breadcrumb-item active">Italy</li>
+        </ul>
+    </div>
+    <div class="container mt-3">
+        <h2>List Groups :</h2>
+        <p>To create a basic list group, use an ul element with class <mark>.list-group</mark>, and li elements with class <mark>.list-group-item</mark>:</p>
+        <ul class="list-group">
+            <li class="list-group-item">First Position</li>
+            <li class="list-group-item">Second Position</li>
+            <li class="list-group-item">Third Position</li>
+        </ul>
+        <h2>Acitive States :</h2>
+        <p>Use the <mark>.active</mark> class to highlight the current item:</p>
+        <ul class="list-group">
+            <li class="list-group-item">First Position</li>
+            <li class="list-group-item active">Second Position</li>
+            <li class="list-group-item">Third Position</li>
+        </ul>
+        <h2>List Group With Linked Items :</h2>
+        <p>To create a list group with linked items, use div instead of ul and a instead of li. Optionally, add the <mark>.list-group-item-action</mark> class if you want a grey background color on hover and The <mark>.disabled</mark> class adds a lighter text color to the disabled item. And when used on links, it will remove the hover effect and Use the <mark>.list-group-flush</mark> class to remove some borders and rounded corners:</p>
+        <div class="list-group list-group-flush">
+            <a class="list-group-item list-group-item-action" href="#">First Item</a>
+            <a class="list-group-item list-group-item-action disabled" href="#">Second Item</a>
+            <a class="list-group-item list-group-item-action" href="#">Third item</a>
+        </div>
+        <h2>Numbered List Groups :</h2>
+        <p>Use the <mark>.list-group-numbered</mark> class to create list items with numbers in front of them:</p>
+        <ul class="list-group list-group-numbered">
+            <li class="list-group-item list-group-item-action">First item</li>
+            <li class="list-group-item list-group-item-action">Second item</li>
+            <li class="list-group-item list-group-item-action">Third item</li>
+        </ul>
+        <h2>Horizontal List Groups :</h2>
+        <p>If you want the list items to display horizontally instead of vertically (side by side instead of on top of each other), add the <mark>.list-group-horizontal</mark> class to .list-group :</p>
+        <ul class="list-group list-group-numbered list-group-horizontal">
+            <li class="list-group-item list-group-item-action">First Position</li>
+            <li class="list-group-item list-group-item-action">Second Position</li>
+            <li class="list-group-item list-group-item-action">Third Position</li>
+        </ul>
+        <h2>Link items with Contextual Classes :</h2>
+        <p>The classes for coloring list-items are: <mark>.list-group-item-success</mark></p>
+        <div class="list-group list-group-numbered">
+            <a class="list-group-item list-group-item-action" href="#">Action</a>
+            <a class="list-group-item list-group-item-action list-group-item-primary" href="#">Primary</a>
+            <a class="list-group-item list-group-item-action list-group-item-success" href="#">Success</a>
+            <a class="list-group-item list-group-item-action list-group-item-info" href="#">Info</a>
+            <a class="list-group-item list-group-item-action list-group-item-danger" href="#">Danger</a>
+            <a class="list-group-item list-group-item-action list-group-item-secondary" href="#">Secondary</a>
+            <a class="list-group-item list-group-item-action list-group-item-warning" href="#">Warning</a>
+            <a class="list-group-item list-group-item-action list-group-item-dark" href="#">Dark</a>
+            <a class="list-group-item list-group-item-action list-group-item-light" href="#">Light</a>
+        </div>
+        <h2 class="mt-3">List Group with Badges :</h2>
+        <p>Combine <mark>.badge</mark> classes with utility/helper classes to add badges inside the list group :</p>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action list-group-item-danger d-flex justify-content-between align-items-center">
+                Adds
+                <span class="badge bg-dark rounded-pill">17</span>
+            </li>
+        </ul>
+        <br>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action list-group-item-info d-flex justify-content-between align-items-center">
+                Notification
+                <span class="badge bg-primary rounded-pill">99+</span>
+            </li>
+        </ul>
+        <br>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-action list-group-item-warning d-flex justify-content-between align-items-center">
+                Inbox
+                <span class="badge bg-secondary rounded-pill">50+</span>
+            </li>
+        </ul>
+    </div>
+    <div class="container mt-5">
+        <h2>Card Header and Footer :</h2>
+        <p>The <mark>.card-header</mark> class adds a heading to the card and the <mark>.card-body</mark> class adds a body to the card and the <mark>.card-footer</mark> class adds a footer to the card :</p>
+        <div class="card">
+            <div class="card-header"></div>
+            <div class="card-body"></div>
+            <div class="card-footer"></div>
+        </div>
+        <h2 class="mt-4">Cards with contextual classes :</h2>
+        <div class="card">
+            <div class="card-body">Basics Card</div>
+        </div>
+        <br>
+        <div class="card bg-primary text-white">
+            <div class="card-body">Primary Card</div>
+        </div>
+        <br>
+        <div class="card bg-secondary text-white">
+            <div class="card-body">Secondary</div>
+        </div>
+        <br>
+        <div class="card bg-info text-white">
+            <div class="card-body">Info</div>
+        </div>
+        <br>
+        <div class="card bg-success text-white">
+            <div class="card-body">Success</div>
+        </div>
+        <br>
+        <div class="card bg-danger text-white">
+            <div class="card-body">Danger</div>
+        </div>
+        <br>
+        <div class="card bg-warning text-white">
+            <div class="card-body">Warning</div>
+        </div>
+        <br>
+        <div class="card bg-light text-dark">
+            <div class="card-body">light</div>
+        </div>
+        <br>
+        <div class="card bg-dark text-white">
+            <div class="card-body">Dark</div>
+        </div>
+        <p class="mt-5">Use <mark>.card-title</mark> to add card titles to any heading element. The <mark>.card-text</mark> class is used to remove bottom margins for a p element if it is the last child (or the only one) inside <mark>.card-body</mark>. The <mark>.card-link</mark> class adds a blue color to any link, and a hover effect.</p>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">This is a card Title.</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In aperiam fugiat cumque, dicta odit explicabo amet, esse maxime eius dolorum eveniet aliquam qui totam aspernatur? Perspiciatis harum incidunt laborum quaerat.</p>
+                <a class="card-link">Card Link</a>
+                <a class="card-link text-decoration-none">This is another card link</a>
+            </div>
+        </div>
+        <h2 class="mt-3">Card Images</h2>
+        <p>Add <mark>.card-img-top</mark> or <mark>.card-img-bottom</mark> to an img to place the image at the top or at the bottom inside the card. Note that we have added the image outside of the <mark>.card-body</mark> to span the entire width:</p>
+        <div class="card img-fluid" style="width: 400px;">
+            <img class="card-img-top" src="image1.jpg" alt="Card Image" style="width: 100%;">
+            <div class="card-body">
+                <h4 class="card-title">Sojon Mahamud</h4>
+                <p class="card-text">This is me a professional web developer.</p>
+                <a class="btn btn-primary" href="#">See more</a>
+            </div>
+        </div>
+        <div class="card img-fluid" style="width: 400px;">
+            <div class="card-body">
+                <h4 class="card-title">Sojon Mahamud</h4>
+                <p class="card-text">I am a web developer.</p>
+                <button class="btn btn-danger">See more</button>
+            </div>
+            <img class="card-img-bottom" src="image1.jpg" alt="card image" style="width: 100%;">
+        </div>
+        <h2 class="mt-3">Card Image Overlay</h2>
+        <div class="card img-fluid" style="width: 400px;">
+            <img class="card-img-top" src="image1.jpg" alt="card image" style="width: 100%;">
+            <div class="card-img-overlay text-white">
+                <h4 class="card-title">Sojon Mahamud</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos ratione earum, molestias pariatur assumenda et hic ad perspiciatis vitae ut aut accusantium corrupti nemo reprehenderit! Quos incidunt aliquid soluta!</p>
+                <button class="btn btn-primary">See more</button>
+            </div>
+        </div>
+        <h2 class="mt-3">DropDown Menu</h2>
+        <p>The <mark>.dropdown</mark> class indicates a dropdown menu.
+            To open the dropdown menu, use a button or a link with a class of<mark>.dropdown-toggle</mark> and the <mark>.data-bs-toggle="dropdown"</mark> attribute.
+            Add the <mark>.dropdown-menu</mark> class to a container element, like div or ul, to actually build the dropdown menu. Then add the <mark>.dropdown-item</mark> class to each element (links or buttons) inside the dropdown menu.</p>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Sojon Mahamud</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Student</a></li>
+                <li><a class="dropdown-item" href="#">Computer Sciemce</a></li>
+                <li><a class="dropdown-item" href="#">Batch-61</a></li>
+            </ul>
+        </div>
+        <h2 mt-3>Dropdown Driver</h2>
+        <div class="dropdown">
+            <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">Dropdown Driver</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                <li><hr class="dropdown-driver"></li>
+                <li><a class="dropdown-item" href="#">Another Link</a></li>
+            </ul>
+        </div>
+        <h2 class="mt-3">Dropdown Header</h2>
+        <p>The <mark>.dropdown-header</mark> class is used to add headers inside the dropdown menu:</p>
+        <div class="dropdown">
+            <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">Dropdown Button</button>
+            <ul class="dropdown-menu">
+                <li><h5 class="dropdown-header">Dropdown Header 1</h5></li>
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><hr class="dropdown-driver"></li>
+                <li><a class="dropdown-item" href="#">Another Link</a></li>
+                <li><h5 class="dropdown-header">Dropdown header 2</h5></li>
+            </ul>
+        </div>
+        <h2 class="mt-3">Disable and Active items</h2>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown Button</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Normal</a></li>
+                <li><a class="dropdown-item active">Active</a></li>
+                <li><a class="dropdown-item disabled">Disable</a></li>
+            </ul>
+        </div>
+        <h2 class="mt-3">Dropdown Position</h2>
+        <p>You can also create a "dropend" or "dropstart" menu, by adding the <mark>.dropend</mark> or <mark>.dropstart</mark> class to the dropdown element. Note that the caret/arrow is added automatically:</p>
+        <div class="dropdown dropend">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown Button</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Normal</a></li>
+                <li><a class="dropdown-item active">Active</a></li>
+                <li><a class="dropdown-item disabled">Disable</a></li>
+            </ul>
+        </div>
+        <div class="dropdown dropstart mt-3">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown Button</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Normal</a></li>
+                <li><a class="dropdown-item active">Active</a></li>
+                <li><a class="dropdown-item disabled">Disable</a></li>
+            </ul>
+        </div>
+        <h2 class="mt-3">Dropdown Menu Right</h2>
+        <p>To right-align the dropdown menu, add the <mark>.dropdown-menu-end</mark> class to the element with .dropdown-menu:</p>
+        <div class="dropdown dropdown-menu-end">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Dropdown Button right position</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Normal</a></li>
+                <li><a class="dropdown-item active">Active</a></li>
+                <li><a class="dropdown-item disabled">Disable</a></li>
+            </ul>
+        </div>
+        <h2 class="mt-3">Dropup</h2>
+        <p>If you want the dropdown menu to expand upwards instead of downwards, change the div element with <mark>class="dropdown" to "dropup":</mark></p>
+        <div class="dropup">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">Dropdown Button</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Normal</a></li>
+                <li><a class="dropdown-item active">Active</a></li>
+                <li><a class="dropdown-item disabled">Disable</a></li>
+            </ul>
+        </div>
+        <h2 class="mt-3">Dropdown text</h2>
+        <p>The <mark>.dropdown-item-text</mark> class is used to add plain text to a dropdown item, or used on links for default link styling.</p>
+        <div class="dropdown">
+            <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown">Dropdown Text</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item-text" href="#">Text Link</a></li>
+                <li><span class="dropdown-item-text">Just Text</span></li>
+            </ul>
+        </div>
+        <h2>Dropdown Grouped Button</h2>
+        <div class="btn-group">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Apple</button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item">Link 1</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-info">Mango</button>
+                <button type="button" class="btn btn-secondary">Banana</button>
+        </div>
+        <h2 class="mt-3">Vertical Button Grouped with Dropdown</h2>
+        <div class="btn-group-vertical">
+            <button type="button" class="btn btn-primary">Apple</button>
+            <button type="button" class="btn btn-danger">Mango</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">Banana</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Banana 1</a></li>
+                    <li><a class="dropdown-item" href="#">Banana 2</a></li>
+                </ul>
+            </div>
+        </div>
+        <h2 class="mt-3">Simple Collapsible</h2>
+        <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+        <div class="collapse" id="demo">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, distinctio ex porro ullam explicabo architecto hic necessitatibus deleniti atque repudiandae! Quibusdam fugit voluptatum consequuntur quae suscipit ullam obcaecati? Odio, corrupti?
+        </div>
+        <p class="mt-3">The <mark>.collapse</mark> class indicates a collapsible element (a div in our example); this is the content that will be shown or hidden with a click of a button.
+        To control (show/hide) the collapsible content, add the <mark>data-bs-toggle="collapse"</mark> attribute to an a or a button element. Then add the <mark>data-bs-target="#id"</mark> attribute to connect the button with the collapsible content (div id="demo").
+        Note: For a elements, you can use the href attribute instead of the data-bs-target attribute:</p>
+        <a class="btn btn-danger" data-bs-toggle="collapse" href="#demo1">Simple Collapsible</a>
+        <div class="collapse" id="demo1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis excepturi aspernatur quibusdam, eos eligendi non cum voluptatem. Quia aspernatur beatae suscipit doloremque, ipsum odio ducimus, asperiores eveniet error, dignissimos rem!
+        </div>
+        <h2 class="mt-3">Show Collapse</h2>
+        <p>By default, the collapsible content is hidden. However, you can add the <mark>.show</mark> class to show the content by default:</p>
+        <button type="button" class="btn btn-warning" data-bs-toggle="collapse" data-bs-target="#demo2">Collapse show</button>
+        <div class="collapse show" id="demo2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugit, modi hic quam saepe nisi tenetur est? Magnam praesentium, quam nisi ipsum doloremque sunt rem deleniti odit, deserunt sint beatae.
+        </div>
+        <h2 class="mt-3">Accordion</h2>
+        <p><strong>Note:</strong> The <strong>data-bs-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#demo3">Accordion Collapse 1</a>
+                </div>
+                <div class="collapse" id="demo3" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At tenetur cupiditate voluptatem architecto, ipsum amet vitae facere ut laudantium maxime nulla accusamus! Harum consectetur voluptates sequi ab laudantium porro id!
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="btn btn-info" data-bs-toggle="collapse" href="#demo4">Accordion Collapse 2</a>
+                </div>
+                <div class="collapse" id="demo4" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vero provident nobis iste odio. Perferendis nisi assumenda eum maiores laborum quidem maxime temporibus unde ea! Ea quisquam sint maxime quos.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a class="btn btn-secondary" data-bs-toggle="collapse" href="#demo5">Accordion Collapse 3</a>
+                </div>
+                <div class="collapse" id="demo5" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aliquam quasi nobis veritatis ratione reprehenderit! Recusandae, molestiae possimus. Quam repudiandae vitae quaerat sint eligendi quia maxime quae, molestias accusantium facere?
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="mt-3">Nav Menus</h2>
+        <p>If you want to create a simple horizontal menu, add the <strong>.nav</strong> class to a ul element, followed by <strong>.nav-item</strong> for each li and add the <strong>.nav-link</strong> class to their links:</p>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">Disabled Link</a>
+            </li>
+        </ul>
+        <h2 class="mt-3">Aligned Nav</h2>
+        <p>Add the <mark>.justify-content-center</mark> class to center the nav, and the <mark>.justify-content-end</mark> class to right-align the nav.</p>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">Disabled Link</a>
+            </li>
+        </ul>
+        <h2 class="mt-3">Vertical Nav</h2>
+        <p>Add the <mark>.flex-column</mark> class to create a vertical nav:</p>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled Link</a>
+            </li>
+        </ul>
+        <h2 class="mt-3">Tabs</h2>
+        <p>Turn the nav menu into navigation tabs with the <mark>.nav-tabs</mark> class. Add the <mark>.active</mark> class to the active/current link.</p>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled Link</a>
+            </li>
+        </ul>
+        <h2 class="mt-3">Nav Pills</h2>
+        <p>Turn the nav menu into navigation pills with the <mark>.nav-pills</mark> class.</p>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled Link</a>
+            </li>
+        </ul>
+        <h2 class="mt-3">Justified Tabs/pills</h2>
+        <p>Justify the tabs/pills with the <mark>.nav-justified</mark> class (equal width):</p>
+        <p>Justified Tabs</p>
+        <ul class="nav nav-tabs nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled Link</a>
+            </li>
+        </ul>
+        <p class="mt-3">Justified Pills</p>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="#">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled Link</a>
+            </li>
+        </ul>
+        <h2 class="mt-3">Pills with Dropdown</h2>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Link 1</a></li>
+                    <li><a class="dropdown-item" href="#">Link 2</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">Disable Link</a>
+            </li>
+        </ul>
+        <h2 class="mt-3">Toggleable / Dynamic Tabs</h2>
+        <p>To make the tabs toggleable, add the <mark>.data-bs-toggle="tab"</mark> attribute to each link. Then add a <mark>.tab-pane</mark> class with a unique ID for every tab and wrap them inside a div element with class <mark>.tab-content</mark>.
+        If you want the tabs to fade in and out when clicking on them, add the <mark>.fade</mark> class to <mark>.tab-pane</mark>:</p>
+        <h2>Toggleable Tabs</h2>
+        <!--Nav Tabs-->
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+            </li>
+            <li>
+                <a class="nav-link" data-bs-toggle="tab" href="#menu1">Menu 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
+            </li>
+        </ul>
+        <!--Tab panes-->
+        <div class="tab-content">
+            <div class="container tab-pane active" id="home">
+                <br>
+                <h2>Home</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore laboriosam nostrum soluta, dicta eaque aspernatur veniam, assumenda sed consectetur, vel natus itaque atque quidem ipsum sapiente ut voluptates ea cupiditate?</p>
+            </div>
+            <div class="container tab-pane fade" id="menu1">
+                <br>
+                <h2>Menu 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos harum consectetur ipsa eligendi, autem sunt adipisci libero officia reprehenderit impedit praesentium optio modi vero! Commodi eligendi consectetur nisi voluptatem asperiores?</p>
+            </div>
+            <div class="container tab-pane fade" id="menu2">
+                <br>
+                <h2>Menu 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eaque ipsa asperiores qui, optio iusto voluptates, sit praesentium voluptas commodi quidem ea laudantium saepe vero, doloremque inventore fugiat officiis dolorem.</p>
+            </div>
+        </div>
+        <br>
+        <h2>Toggleable / Dynamic Pills</h2>
+        <p>The same code applies to pills; only change the data-toggle attribute to <mark>.data-bs-toggle="pill" :</mark>:</p>
+        <!--Nav Pills-->
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="pill" href="#home1">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#menu11">Menu 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="pill" href="#menu22">Menu 2</a>
+            </li>
+        </ul>
+        <!--Panes Content-->
+        <div class="tab-content">
+            <div class="container tab-pane active" id="home1">
+                <br>
+                <h2>Home</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias doloremque, repudiandae debitis quia earum quam rem obcaecati rerum fugiat reprehenderit dicta odit optio adipisci eveniet nisi, repellat ipsum magnam dolor.</p>
+            </div>
+            <div class="container tab-pane fade" id="menu11">
+                <br>
+                <h2>Menu 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis error ratione optio voluptatem ea reprehenderit quo soluta incidunt rerum dolores ex ullam quisquam, voluptas quam accusamus aliquam esse vitae maiores.</p>
+            </div>
+            <div class="container tab-pane fade" id="menu22">
+                <br>
+                <h2>Menu 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ullam accusamus mollitia architecto dicta soluta perferendis eveniet voluptas minima illum autem itaque exercitationem error quisquam fugit eum id earum. Perspiciatis!</p>
+            </div>
+        </div>
+        <br>
+        <h2>Navigation Bars</h2>
+        <p>With Bootstrap, a navigation bar can extend or collapse, depending on the screen size.
+        A standard navigation bar is created with the <mark>.navbar</mark> class, followed by a responsive collapsing class: <mark>.navbar-expand-xxl|xl|lg|md|sm</mark> (stacks the navbar vertically on xxlarge, extra large, large, medium or small screens).
+        To add links inside the navbar, use either an ul element (or a div) with <mark>class="navbar-nav"</mark>. Then add li elements with a <mark>.nav-item</mark> class followed by an a element with a <mark>.nav-link</mark> class:</p>
+        <nav class="navbar bg-light navbar-expand-sm">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#message">Message</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#notification">Notification</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <h2>Vertical Navbars</h2>
+        <p>Remove the <mark>.navbar-expand-*</mark> class to create a navigation bar that will always be vertical also Add the <mark>.justify-content-center</mark> class to center the navigation bar:</p>
+        <nav class="navbar bg-info">
+            <div class="container-fluid justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 3</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <h2>Navigation bars colour</h2>
+        <p>Tip: Add a white text color to all links in the navbar with the <mark>.navbar-dark</mark> class, or use the <mark>.navbar-light</mark> class to add a black text color.</p>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <h2>Band and Logo</h2>
+        <p>When using the <mark>.navbar-brand</mark> class with images, Bootstrap 5 will automatically style the image to fit the navbar vertically.</p>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="image1.jpg" alt="logo" class="rounded-pill" style="width: 40px;">
+                </a>
+            </div>
+        </nav>
+        <br>
+        <h2>Collapsible Navigation bars and Fixed Navbars</h2>
+        <p>To create a collapsible navigation bar, use a button with <mark>class="navbar-toggler", data-bs-toggle="collapse" and data-bs-target="#thetarget"</mark>. Then wrap the navbar content (links, etc) inside a div element with <mark>class="collapse navbar-collapse"</mark>, followed by an id that matches the <mark>data-bs-target of the button: "thetarget"</mark>. And also The <mark>.fixed-top</mark> class makes the navigation bar fixed at the top:Use the <mark>.fixed-bottom</mark> class to make the navbar stay at the bottom of the page:</p>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <h2>Navbar With Dropdown</h2>
+        <nav class="navbar navbar-expand-sm bg-info navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 3</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Sojon</a></li>
+                                <li><a class="dropdown-item" href="#">Mahamud</a></li>
+                                <li><a class="dropdown-item" href="#">Another Link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <h2>Navbar Forms and Buttons and Sticky</h2>
+        <p>Use the <mark>.sticky-top</mark> class to make the navbar fixed/stay at the top of the page when you scroll past it. Note: This class does not work in IE11 and earlier (will treat it as <mark>position:relative</mark>).</p>
+        <nav class="navbar navbar-expand-lg bg-success navbar-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Mahamud</a></li>
+                                <li><a class="dropdown-item" href="#">Tasfin</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" placeholder="Search" type="text">
+                        <button class="btn btn-primary" type="button">Seatch</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <h2 class="mt-3">Carousel / Slideshow</h2>
+        <p>How to create a carousel and slideshow</p>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Class</t>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>.carousel</td>
+                    <td>To creates a carousel</td>
+                </tr>
+                <tr>
+                    <td>.carousel-indicators</td>
+                    <td>Adds indicators for the carousel. These are the little dots at the bottom of each slide (which indicates how many slides there are in the carousel, and which slide the user are currently viewing)</td>
+                </tr>
+                <tr>
+                    <td>.carousel-inner</td>
+                    <td>Adds slides to the carousel</td>
+                </tr>
+                <tr>
+                    <td>.carousel-item</td>
+                    <td>Specifies the content of each slide</td>
+                </tr>
+                <tr>
+                    <td>.carousel-control-prev</td>
+                    <td>Adds a left (previous) button to the carousel, which allows the user to go back between the slides</td>
+                </tr>
+                <tr>
+                    <td>.carousel-control-next</td>
+                    <td>Adds a right (next) button to the carousel, which allows the user to go forward between the slides</td>
+                </tr>
+                <tr>
+                    <td>.carousel-control-prev-icon</td>
+                    <td>Used together with .carousel-control-prev to create a "previous" button</td>
+                </tr>
+                <tr>
+                    <td>.carousel-control-next-icon</td>
+                    <td>Used together with .carousel-control-next to create a "next" button</td>
+                </tr>
+                <tr>
+                    <td>.slide</td>
+                    <td>Adds a CSS transition and animation effect when sliding from one item to the next. Remove this class if you do not want this effect</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>Creating a Carousel</h2>
+        <!--Carousel-->
+        <div class="carousel slide" id="demo" data-bs-ride="carousel" data-bs-interval="1000">
+            <!--Indicators/Dots-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!--The SlideShow/Carousel-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image2.jpg" alt="Image 1" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="image3.jpg" alt="image2" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="image4.jpg" alt="image3" class="d-block w-100">
+                </div>
+            </div>
+
+            <!--Left and right Control Carousel/icons-->
+            <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <div class="container mt-3">
+            <h2>Carousel Example</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt repellendus numquam dicta, vero cupiditate ut sed nulla similique illo vel ab error quasi perspiciatis voluptatem illum omnis commodi facere assumenda!</p>
+        </div>
+        <br>
+        <h2>Add Captions to the slides</h2>
+        <p>Add elements inside <mark>div class="carousel-caption"</mark> within each <mark>div class="carousel-item"</mark> to create a caption for each slide:</p>
+        <div class="carousel slide" id="demo" data-bs-ride="carousel" data-bs-interval="1000">
+            <!--Carousel indicators-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <!--The Slideshow carousel images-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image2.jpg" alt="image 2" class="d-block" style="width: 100%;">
+                    <div class="carousel-caption">
+                        <h3>New Yourk</h3>
+                        <p>We love New Yourk City.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image3.jpg" alt="image 3" class="d-block" style="width: 100%;">
+                    <div class="carousel-caption">
+                        <h3>Bangladesh</h3>
+                        <p>Bangladesh is a indipendent country.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="image4.jpg" alt="image 4" class="d-block" style="width: 100%;">
+                    <div class="carousel-caption">
+                        <h3>Japan</h3>
+                        <p>Japan is a beautiful country</p>
+                    </div>
+                </div>
+            </div>
+            <!--Left and right slideshow Carousel-->
+            <button type="button" class="carousel-control-prev" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h2>Modals</h2>
+        <p>How to create a modals also add animation Use the <mark>.fade</mark> class to add a fading effect when opening and closing the modal:</p>
+        <h2>Modal sizes</h2>
+        <p>Change the size of the modal by adding the <mark>.modal-sm class for small modals (max-width 300px), .modal-lg class for large modals  (max-width 800px), or .modal-xl for extra large modals  (max-width 1140px). Default is 500px max-width.</mark>
+        Add the size class to the div element with class <mark>.modal-dialog</mark>:</p>
+        <h2>Centered modals</h2>
+        <p>Center the modal vertically and horizontally within the page, with the <mark>.modal-dialog-centered</mark> class:</p>
+        <h2>Scrolling modal</h2>
+        <p>However, it is possible to only scroll inside the modal, instead of the page itself, by adding <mark>.modal-dialog-scrollable to .modal-dialog</mark></p>
+
+        <button type="button" class="btn btn-info" data-bs-target="#myModal" data-bs-toggle="modal">Open Me Baby..</button>
+    </div>
+    <!--The Modal-->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <!--Modal Header-->
+                <div class="modal-header">
+                    <h4 class="modal-title">Sojon Mahamud.</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <!--Modal body-->
+                <div class="modal-body">
+                    <p class="modal-title">Valobasar Gushti cdi. Fuck your love. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima aliquam vel aut ratione nesciunt. Assumenda aut praesentium ipsum quaerat sit necessitatibus deleniti eveniet repudiandae! Qui quam incidunt ex a. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis quasi provident officia blanditiis quae ratione autem quidem voluptatibus alias consequuntur aperiam, impedit molestiae nobis asperiores debitis ex sit nisi dolores?
+                    Modi voluptate deserunt dignissimos minus iusto id aliquid? Eos natus, nostrum ullam corrupti voluptas porro labore et? Sit rerum nulla odio eaque corrupti, ab fuga repudiandae esse saepe sunt asperiores?
+                    Numquam consequuntur eius velit nisi deserunt ea, nulla harum optio in iure? Minus veritatis nihil sunt culpa? Commodi, repellat beatae assumenda, voluptatum autem sunt, dolorum ducimus distinctio nihil adipisci voluptas!
+                    Dignissimos ipsum repudiandae, beatae maiores numquam nostrum officia a iste dolorem porro maxime inventore debitis non voluptates ipsa eaque odio hic veritatis optio blanditiis nihil. Soluta asperiores architecto aut magnam?
+                    Dolore aut ipsum, quisquam magnam facilis dolores pariatur asperiores tempore nam. Corporis, commodi! Eligendi ad magnam fuga fugiat corrupti dolorum, quis placeat cumque nihil tempora possimus neque asperiores, numquam nam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo adipisci aliquid quaerat. Dolorem nihil voluptatum, rem dignissimos eaque enim ducimus illum. Laudantium minus alias voluptates delectus, molestias amet enim esse!
+                    Nostrum hic aliquid modi fuga ut beatae unde provident iure, sapiente ad eligendi a cum eveniet, pariatur explicabo porro odit maxime, nemo quibusdam. Maxime eum molestiae non consequatur est quo?
+                    Quia voluptas iste soluta vero autem exercitationem nulla sapiente enim molestias voluptates error maxime porro, et corporis, illum quos obcaecati quaerat reiciendis quod vitae! Explicabo laboriosam doloribus excepturi consequatur numquam?
+                    Dolore, quia facilis incidunt nam expedita mollitia molestias accusantium ipsum vero accusamus sint soluta illo praesentium culpa ab atque. Sunt saepe porro omnis voluptatibus sequi molestiae magni? Eaque, rem officiis.
+                    Quaerat non fugiat beatae eveniet. Ut molestias sunt tempora quam fugit dicta esse doloremque laudantium consequuntur maiores autem ratione nulla deleniti ipsam deserunt, tempore officiis assumenda eos quia laboriosam. Aut.
+                    Quasi deserunt quam beatae ex ipsum, numquam aut quibusdam tempore officiis inventore repellendus. Nulla iusto alias quia ipsam officia eius deleniti, minus ipsa qui facilis. Commodi asperiores esse maiores delectus!
+                    Optio eveniet quibusdam reprehenderit at illo aliquam facilis aut obcaecati incidunt assumenda ipsa qui, id quasi eos. Beatae explicabo ab quam odit, quae ducimus ea. Doloribus recusandae non autem maiores?
+                    Accusantium minus aliquid explicabo expedita consequatur deleniti id, quibusdam animi atque ullam quidem molestias amet odit ex enim nostrum ipsam consectetur distinctio repellat temporibus. Neque adipisci vero omnis voluptatibus et.
+                    Illo fuga omnis fugit maxime dolore numquam inventore odio eius, commodi earum cupiditate est expedita aperiam pariatur ratione maiores reiciendis, itaque porro doloremque, modi accusantium? Doloribus hic nobis quod eaque!
+                    Fugiat neque praesentium quidem, cumque sint natus? Maxime qui doloremque quo, dolore laudantium molestias numquam doloribus non ullam rerum facilis animi aspernatur quod veniam fuga consequuntur repudiandae ab sed delectus.</p>
+                </div>
+                <!--Modal Footer-->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h2>Fullscreen Modals</h2>
+        <p>If you want the modal to span the whole width and height of the page, use the <mark>.modal-fullscreen</mark> class:</p>
+        <button type="button" class="btn btn-success" data-bs-target="#myModal1" data-bs-toggle="modal">See More</button>
+    </div>
+    <div class="modal fade" id="myModal1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Mahamud..!</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ullam maiores unde, nobis omnis doloribus minus ipsa quaerat ab, temporibus dolores harum, perferendis quisquam illum tempore beatae enim cupiditate officia.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" type="button" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h2>How to create a tooltrip</h2>
+        <p>add the <mark>.data-bs-toggle="tooltip"</mark> attribute to an element.
+        Use the <mark>title</mark> attribute to specify the text that should be displayed inside the tooltip:</p>
+        <p><mark>Note:</mark> Tooltips must be initialized with JavaScript to work.</p>
+        <p>Tooltips positioning</p>
+        <p>Use the data-bs-placement attribute to set the position of the tooltip on top, bottom, left or the right side of the element:</p>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="Sojon Mahamud">Hover over me.!</button>
+        <a href="##" data-bs-toggle="tooltip" data-bs-placement="top" title="Hurrah!">Top</a>
+        <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hooray!">Bottom</a>
+        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Hurrah!">Left</a>
+        <a href="#" data-bs-toggle="tooltip" title="right" data-bs-placement="right">Right</a>
+    </div>
+    <!--Popover-->
+    <div class="container mt-3">
+        <h2>Popover</h2>
+        <p>To create a popover, add the <mark>data-bs-toggle="popover"</mark> attribute to an element.
+        Use the <mark>title</mark> attribute to specify the header text of the popover, and use the <mark>data-bs-content</mark> attribute to specify the text that should be displayed inside the popover's body:</p>
+
+        <button type="button" class="btn btn-secondary" data-bs-toggle="popover" title="Popover Header" data-bs-content="Some content into the popover">
+            Popover Button
+        </button>
+    </div>
+    <div class="container mt-3">
+        <h2>Positioning Popover</h2>
+
+        <a href="###" data-bs-toggle="popover" title="Header" data-bs-content="Content" data-bs-placement="top">Top</a>
+        <a href="###" data-bs-toggle="popover" title="Header" data-bs-content="Content" data-bs-placement="bottom">Bottom</a>
+        <a href="###" data-bs-toggle="popover" title="Header" data-bs-content="Content" data-bs-placement="left">Left</a>
+        <a href="###" data-bs-toggle="popover" title="Header" data-bs-content="Content" data-bs-placement="right">Right</a>
+    </div>
+    <div class="container">
+        <h2>Closing Popovers</h2>
+        <p>By default, the popover is closed when you click on the element again. However, you can use the <mark>data-bs-trigger="focus"</mark> attribute which will close the popover when clicking outside the element:</p>
+
+        <a class="btn btn-info" href="###" data-bs-toggle="popover" title="Header" data-bs-content="Closing Popover" data-bs-trigger="focus">cleck me..</a>
+
+        <br>
+        <br>
+        <h2>Hoverable Popover</h2>
+        <p>Tip: If you want the popover to be displayed when you move the mouse pointer over the element, use the <mark>data-bs-trigger</mark> attribute with a value of <mark>"hover"</mark>:</p>
+        <!--Hoverable popover-->
+        <a href="###" class="btn btn-outline-info" data-bs-toggle="popover" title="Header" data-bs-content="This is a Hover Popover" data-bs-trigger="hover" data-bs-placement="right">Hover Over me..</a>
+    </div>
+    <div class="container mt-3">
+        <h2>How To create a Toast</h2>
+        <p>To create a toast, use the <mark>.toast</mark> class, and add a <mark>.toast-header</mark> and a <mark>.toast-body</mark> inside of it.
+        Note: Toasts are hidden by default. Use the <mark>.show</mark> class if you want to display it. To close it, use a button element and add <mark>data-bs-dismiss="toast":</mark></p>
+
+        <button type="button" class="btn btn-secondary" id="toastbtn">Toast Show</button>
+
+        <div class="toast">
+            <div class="toast-header">
+                <strong class="me-auto">Toast Header</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+            </div>
+            <div class="toast-body">
+                <p>This a body of a Toast Button.!</p>
+            </div>
+        </div>
+        <br>
+        <h2>Scrollspy</h2>
+        <p>Add <mark>data-bs-spy="scroll"</mark> to the element that should be used as the scrollable area (often this is the body element).
+
+        Then add the <mark>data-bs-target</mark> attribute with a value of the<mark> id</mark> or the class name of the navigation bar (.navbar). This is to make sure that the navbar is connected with the scrollable area.
+
+        Note that scrollable elements must match the ID of the links inside the navbar's list items <mark>(div id="section1" matches a href="#section1")</mark>.
+
+        The optional <mark>data-bs-offest</mark> attribute specifies the number of pixels to offset from top when calculating the position of scroll. This is useful when you feel that the links inside the navbar changes the active state too soon or too early when jumping to the scrollable elements. Default is 10 pixels.</p>
+
+        <div class="container overflow-y-auto" style="height: 300px; width: 100%; position: relative;" data-bs-spy="scroll" data-bs-target="#mynavbar" data-bs-offset="50">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark sticky-top" id="mynavbar">
+                <div class="container">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section1">Section 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">Section 2</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="#section3">Section 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container bg-success" style="padding: 100px 20px;" id="section1">
+                <h4>Section 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam sed vero perspiciatis nobis, in hic similique odit harum aliquam exercitationem quasi corporis, rem fugit quo iure, rerum esse ab unde?</p>
+            </div>
+            <div class="container bg-info" style="padding: 100px 20px;" id="section2">
+                <h4>Section 2</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea at, iste excepturi ullam perferendis, ipsum sunt adipisci minus numquam cupiditate unde. Iusto nulla perspiciatis esse enim maxime doloribus sunt.</p>
+            </div>
+            <div class="container bg-danger" style="padding: 100px 20px;" id="section3">
+                <h4>Section 3</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium accusamus est qui quas veniam tempore nobis, dolorum, possimus minus sequi ipsam enim officiis ducimus dicta rem suscipit. Numquam, a.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h2>How To Create an Offcanvas Sidebar</h2>
+        <p></p>
+        <div class="offcanvas offcanvas-start bg-info " id="demo11" style="width: 300px;">
+            <div class="offcanvas-header">
+                <h3 class="offcanvas-title">Sojon Mahamud</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>Some Text and Information</p>
+                <p>Some text and information</p>
+                <br>
+                <br>
+                <button type="button" class="btn btn-secondary">Click me..!</button>
+            </div>
+        </div>
+    </div>
+    <!--Offcanvas side Button-->
+    <div class="container mt-5">
+        <!--Offcavas Button-->
+        <button type="button" class="btn btn-outline-info" data-bs-toggle="offcanvas" data-bs-target="#demo11">
+            Offcavas side Button
+        </button>
+    </div>
+    <div class="container mt-3">
+        <h2>Utilities / Helper Classes</h2>
+        <div class="utilities border border-5 border-success"></div>
+        <div class="utilities border border-0"></div>
+        <div class="utilities border border-top-0 border-5 border-dark"></div>
+        <br>
+        <h2>Border Radius</h2>
+        <span class="utilities rounded"></span>
+        <span class="utilities rounded-top"></span>
+        <span class="utilities rounded-end"></span>
+        <span class="utilities rounded-bottom"></span>
+        <span class="utilities rounded-start"></span>
+        <span class="utilities rounded-circle"></span>
+        <span class="utilities rounded-pill" style="width: 200px;"></span>
+        <br>
+        <span class="utilities rounded-0"></span>
+        <span class="utilities rounded-1 rounded-top"></span>
+        <span class="utilities rounded-2"></span>
+        <span class="utilities rounded-3"></span>
+        <span class="utilities rounded-top-4"></span>
+        <span class="utilities rounded-bottom-5"></span>
+        <br>
+        <h2>Float/ Clearfix</h2>
+        <p>Float an element to the right with the <mark>.float-end</mark> class or to the left with <mark>.float-start</mark>, and clear floats with the <mark>.clearfix</mark> class:</p>
+
+        <div class="clearfix">
+            <span class="float-end">Float End</span>
+            <span class="float-start">Float Start</span>
+        </div>
+        <div class="clearfix">
+            <span class="float-sm-end">Float right on small screens or wider</span>
+            <br>
+            <span class="float-md-end">Float right on medium screens or wider</span>
+            <br>
+            <span class="float-lg-end">Float right on large screens or wider</span>
+            <br>
+            <span class="float-xl-end">Float right on extra-large screens or wider</span><br>
+            <span class="float-xxl-end">Float right on xxl screens or wider</span>
+            <br>
+            <span class="float-none">Float None</span>
+        </div>
+        <div class="container mt-3">
+            <h2>Horizental Centaring</h2>
+            <div class="mx-auto bg-danger text-center" style="width: 150px;">Centered</div>
+        </div>
+        <br>
+        <h2>Width</h2>
+        <div class="bg-primary w-25">Width 25%</div>
+        <div class="bg-secondary w-50">Width 50%</div>
+        <div class="bg-info w-75">Width 75%</div>
+        <div class="bg-warning w-100">Width 100%</div>
+        <div class="bg-danger w-auto">Auto Width</div>
+        <div class="bg-success mx-100">Max Width 100%</div>
+        <br>
+        <h2>Height</h2>
+        <div class="container bg-light" style="height: 200px;">
+            <div class="bg-warning h-25 d-inline-block p-2">Height 25%</div>
+            <div class="bg-danger h-50 d-inline-block p-2">Height 50%</div>
+            <div class="bg-success h-75 d-inline-block p-2">Height 75%</div>
+            <div class="bg-info h-100 d-inline-block p-2">Height 100%</div>
+            <div class="bg-secondary h-auto d-inline-block p-2">Height Auto</div>
+            <span class="bg-primary mh-100 d-inline-block p-2" style="height: 500px;">Max Height 100%</span>
+        </div>
+    </div>
+    <div class="container mt-3 bg-light">
+        <div class="bg-secondary pt-4">I only have a top padding (1.5rem)</div>
+        <div class="bg-danger p-5">I have a padding on all sides (3rem)</div>
+        <div class="bg-success m-5 pb-5">I have a margin on all sides (3rem) and a bottom padding (3rem)</div>
+    </div>
+    <div class="container mt-3">
+        <h2>Shadows.</h2>
+        <div class="shadow-none p-4 bg-secondary mb-4">No Shadows.</div>
+        <div class="shadow-sm p-4 bg-info mb-4">Small Shadow</div>
+        <div class="shadow-lg p-4 bg-warning mb-4">Large Shadow</div>
+        <div class="shadow p-4 bg-success mb-4">Default Shadow</div>
+        <br>
+        <h1>Vertical Align</h1>
+        <p>Change the alignment of elements with the align classes (only works on inline, inline-block, inline-table and table cell elements):</p>
+        <span class="align-baseline">baseline</span>
+        <span class="align-top">top</span>
+        <span class="align-middle">middle</span>
+        <span class="align-bottom">bottom</span>
+        <span class="align-text-top">text top</span>
+        <span class="align-text-bottom">text bottom</span>
+        <br>
+        <h2>Aspect Ratio</h2>
+        <h3>Aspect Ratio 1:1</h3>
+        <br>
+        <div class="ratio ratio-1x1">
+            <iframe src="https://www.youtube.com/embed/7QaYikJNkg8"></iframe>
+        </div>
+        <br>
+        <h2>Aspect Ratio 4x3</h2>
+        <div class="ratio ratio-4x3">
+            <iframe src="https://www.youtube.com/embed/5hYU5nywU4s"></iframe>
+        </div>
+        <br>
+        <h2>Aspect Ratio 16x9</h2>
+        <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/r_DhvoCgWPA"></iframe>
+        </div>
+        <br>
+        <h2>Aspect Ratio 21x9</h2>
+        <div class="ratio ratio-21x9">
+            <iframe src="https://www.youtube.com/embed/r_DhvoCgWPA"></iframe>
+        </div>
+    </div>
+    <br>
+    <h2>Dark Theme.</h2>
+    <p>If you want to change the whole page to a darker color, you can add <mark>data-bs-theme="dark"</mark> to the html element:</p>
+    <p>If you don't want the whole page to have a darker color, but only specific components, you can add the <mark>data-bs-theme="dark"</mark> attribute to the specified component.</p>
+    <div class="container mt-3">
+        <h2>This is My Page</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ut dicta, maiores mollitia atque, voluptatem quibusdam perspiciatis accusantium doloribus beatae sunt quos delectus quas voluptatum! Similique ad quibusdam omnis modi.</p>
+
+        <div class="card" data-bs-theme="dark">
+            <div class="card-body">
+                This is a Card.
+            </div>
+        </div>
+        <br>
+        <h4>Some Buttons.</h4>
+        <button type="button" class="btn btn-outline-secondary">Secondary</button>
+        <button type="button" class="btn btn-outline-info">Info Button</button>
+    </div>
+    <br>
+    <h2>FlexBox</h2>
+    <p>To create a flexbox container and to transform direct children into flex items, use the <mark>.d-flex</mark> class:</p>
+    <div class="container mt-3 bg-secondary d-flex p-3 text-white">
+        <div class="bg-info p-2">Flex items 1</div>
+        <div class="bg-warning p-2">Flex items 2</div>
+        <div class="bg-danger p-2">Flex items 3</div>
+    </div>
+    <br>
+    <p>To create an inline flexbox container, use the <mark>d-inline-flex</mark> class:</p>
+        <div class="container mt-3">
+            <div class="text-white bg-secondary d-inline-flex p-3">
+            <div class="bg-info p-2">Flex Items 1</div>
+            <div class="bg-danger p-2">Flex Items 2</div>
+            <div class="bg-dark p-2">Flex Items 3</div>
+        </div>
+    </div>
+    <div class="container mt-3 ">
+        <h2>Horizontal Directions.</h2>
+        <p>Use <mark>.flex-row</mark> to display the flex items horizontally (side by side). This is default.
+        Tip: Use <mark>.flex-row-reverse</mark> to right-align the horizontal direction:</p>
+        <div class="d-flex bg-secondary p-3 flex-row">
+            <div class="bg-danger p-2">Sojon Mahamud</div>
+            <div class="bg-success p-2">Mango</div>
+            <div class="bg-warning p-2">Banana</div>
+        </div>
+        <br>
+        <br>
+        <div class="bg-secondary d-flex p-3 flex-row-reverse">
+            <div class="bg-primary p-2">Australia</div>
+            <div class="bg-light p-2">New Zealand</div>
+            <div class="bg-success p-2">Sauth Africa</div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h2>Vertical Direction</h2>
+        <p>Use <mark>.flex-column</mark> to display the flex items vertically (on top of each other), or <mark>.flex-column-reverse</mark> to reverse the vertical direction:</p>
+        <br>
+        <div class="d-flex flex-column">
+            <div class="bg-secondary p-2 text-white">Secondary</div>
+            <div class="bg-primary p-2">Primary</div>
+            <div class="bg-danger p-2">Danger</div>
+        </div>
+        <br>
+        <div class="d-flex flex-column-reverse">
+            <div class="bg-dark text-white p-2">Dark</div>
+            <div class="bg-info p-2 text-white">Info</div>
+            <div class="bg-success p-2 text-white">Success</div>
+        </div>
+        <br>
+        <h2>Justify Content</h2>
+        <div class="bg-secondary d-flex justify-content-start">
+            <div class="bg-primary p-2">Primary.</div>
+            <div class="bg-info p-2">Info</div>
+            <div class="bg-danger p-2">Danger.</div>
+        </div>
+        <div class="bg-secondary d-flex mt-3 justify-content-end">
+            <div class="bg-primary p-2">Primary.</div>
+            <div class="bg-danger p-2">Danger.</div>
+            <div class="bg-success p-2">Success.</div>
+        </div>
+        <div class="bg-secondary d-flex mt-3 justify-content-center">
+            <div class="bg-success p-2">Success.</div>
+            <div class="bg-primary p-2">Primary.</div>
+            <div class="bg-info p-2">Info.</div>
+        </div>
+        <div class="bg-secondary d-flex mt-3 justify-content-between">
+            <div class="bg-primary p-2">Primary.</div>
+            <div class="bg-danger p-2">Success.</div>
+            <div class="bg-success p-2">Sojon Mahamud.</div>
+        </div>
+        <div class="bg-secondary d-flex mt-3 justify-content-around">
+            <div class="bg-primary p-2">Sojon Mahamud.</div>
+            <div class="bg-warning p-2">Minhaz Uddin.</div>
+            <div class="bg-info p-2">Pabel Mia.</div>
+        </div>
+        <br>
+        <h2>Fill / Equal Widths</h2>
+        <p>Use .flex-fill on flex items to force them into equal widths:</p>
+        <div class="d-flex mt-3">
+            <div class="bg-secondary p-2 flex-fill">Sojon Mahamud</div>
+            <div class="bg-warning p-2 flex-fill">Minhaz Uddin</div>
+            <div class="bg-danger p-2 flex-fill">Pabel Mia</div>
+        </div>
+        <br>
+        <h2>Use <mark>.flex-grow-1</mark> on a flex item to take up the rest of the space:</h2>
+        <div class="d-flex mt-3">
+            <div class="bg-danger p-2">Nahid Rana</div>
+            <div class="bg-info p-2">Sojon Mahamud</div>
+            <div class="bg-warning p-2 flex-grow-1">Minhaz Uddin</div>
+        </div>
+        <br>
+        <h2>Order</h2>
+        <p>Change the visual order of a specific flex item(s) with the <mark>.order</mark> classes. Valid classes are from 0 to 5, where the lowest number has highest priority (order-1 is shown before order-2, etc..):</p>
+
+        <div class="d-flex mt-3">
+            <div class="bg-info p-2 order-2">Mahamud</div>
+            <div class="bg-warning p-2 order-4">Roy</div>
+            <div class="bg-secondary p-2 order-1">Sojon</div>
+            <div class="bg-danger p-2 order-3">Tasfin</div>
+        </div>
+        <br>
+        <h2>Auto Margins</h2>
+        <p>Easily add auto margins to flex items with <mark>.ms-auto</mark> (push items to the right), or by using <mark>.me-auto</mark> (push items to the left):</p>
+
+        <div class="d-flex bg-secondary">
+            <div class="bg-danger p-2 ms-auto">Sojon Mahamud</div>
+            <div class="bg-warning p-2">Tasfin Roy</div>
+            <div class="bg-info p-2">Kabir Uddin</div>
+        </div>
+        <br>
+        <div class="d-flex bg-secondary">
+            <div class="bg-danger p-2">Sojon Mahamud</div>
+            <div class="bg-warning p-2">Tasfin Roy</div>
+            <div class="bg-info p-2 me-auto">Kabir Uddin</div>
+        </div>
+        <br>
+        <h2>Wrap</h2>
+        <p>Control how flex items wrap in a flex container with <mark>.flex-nowrap</mark> (default), <mark>.flex-wrap</mark> or <mark>.flex-wrap-reverse</mark>
+        Click on the buttons below to see the difference between the three classes, by changing the wrapping of the flex items in the example box:</p>
+        <h2>.felx-wrap</h2>
+        <div class="d-flex bg-light flex-wrap">
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 2</div>
+            <div class="border p-2">Flex items 3</div>
+            <div class="border p-2">Flex items 4</div>
+            <div class="border p-2">Flex items 5</div>
+            <div class="border p-2">Flex items 6</div>
+            <div class="border p-2">Flex items 7</div>
+            <div class="border p-2">Flex items 8</div>
+            <div class="border p-2">Flex items 9</div>
+            <div class="border p-2">Flex items 10</div>
+            <div class="border p-2">Flex items 11</div>
+            <div class="border p-2">Flex items 12</div>
+            <div class="border p-2">Flex items 13</div>
+            <div class="border p-2">Flex items 14</div>
+            <div class="border p-2">Flex items 15</div>
+            <div class="border p-2">Flex items 16</div>
+            <div class="border p-2">Flex items 17</div>
+            <div class="border p-2">Flex items 18</div>
+            <div class="border p-2">Flex items 19</div>
+            <div class="border p-2">Flex items 20</div>
+            <div class="border p-2">Flex items 21</div>
+            <div class="border p-2">Flex items 22</div>
+            <div class="border p-2">Flex items 23</div>
+            <div class="border p-2">Flex items 24</div>
+            <div class="border p-2">Flex items 25</div>
+        </div>
+        <br>
+        <h2 class="mb-3">.flex-wrap-reverse</h2>
+        <div class="d-flex bg-light flex-wrap-reverse">
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 2</div>
+            <div class="border p-2">Flex items 3</div>
+            <div class="border p-2">Flex items 4</div>
+            <div class="border p-2">Flex items 5</div>
+            <div class="border p-2">Flex items 6</div>
+            <div class="border p-2">Flex items 7</div>
+            <div class="border p-2">Flex items 8</div>
+            <div class="border p-2">Flex items 9</div>
+            <div class="border p-2">Flex items 10</div>
+            <div class="border p-2">Flex items 11</div>
+            <div class="border p-2">Flex items 12</div>
+            <div class="border p-2">Flex items 13</div>
+            <div class="border p-2">Flex items 14</div>
+            <div class="border p-2">Flex items 15</div>
+            <div class="border p-2">Flex items 16</div>
+            <div class="border p-2">Flex items 17</div>
+            <div class="border p-2">Flex items 18</div>
+            <div class="border p-2">Flex items 19</div>
+            <div class="border p-2">Flex items 20</div>
+            <div class="border p-2">Flex items 21</div>
+            <div class="border p-2">Flex items 22</div>
+            <div class="border p-2">Flex items 23</div>
+            <div class="border p-2">Flex items 24</div>
+            <div class="border p-2">Flex items 25</div>
+        </div>
+        <br>
+        <h2 class="mb-3">.flex-nowrap</h2>
+        <div class="d-flex bg-light flex-nowrap">
+            <div class="p-2 border">Flex items 1</div>
+            <div class="p-2 border">Flex items 2</div>
+            <div class="p-2 border">Flex items 3</div>
+            <div class="p-2 border">Flex items 4</div>
+            <div class="p-2 border">Flex items 5</div>
+            <div class="p-2 border">Flex items 6</div>
+            <div class="p-2 border">Flex items 7</div>
+            <div class="p-2 border">Flex items 8</div>
+            <div class="p-2 border">Flex items 9</div>
+            <div class="p-2 border">Flex items 10</div>
+            <div class="p-2 border">Flex items 11</div>
+            <div class="p-2 border">Flex items 12</div>
+            <div class="p-2 border">Flex items 13</div>
+            <div class="p-2 border">Flex items 14</div>
+            <div class="p-2 border">Flex items 15</div>
+            <div class="p-2 border">Flex items 16</div>
+            <div class="p-2 border">Flex items 17</div>
+            <div class="p-2 border">Flex items 18</div>
+            <div class="p-2 border">Flex items 19</div>
+            <div class="p-2 border">Flex items 20</div>
+            <div class="p-2 border">Flex items 21</div>
+            <div class="p-2 border">Flex items 22</div>
+            <div class="p-2 border">Flex items 23</div>
+            <div class="p-2 border">Flex items 24</div>
+        </div>
+        <br>
+        <h2>Align Contents</h2>
+
+        <p>Control the vertical alignment of gathered flex items with the <mark>.align-content-* classes. Valid classes are .align-content-start (default), .align-content-end, .align-content-center, .align-content-between, .align-content-around and .align-content-stretch.</mark>
+        Note: These classes have no effect on single rows of flex items.</p>
+        <div class="d-flex flex-wrap bg-secondary align-content-start" style="height: 200px;">
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 2</div>
+            <div class="border p-2">Flex items 3</div>
+            <div class="border p-2">Flex items 4</div>
+            <div class="border p-2">Flex items 5</div>
+            <div class="border p-2">Flex items 6</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+            <div class="border p-2">Flex items 1</div>
+        </div>
+        <br>
+        <p><mark>.align-content-end</mark></p>
+        <div class="d-flex flex-wrap bg-secondary align-content-end" style="height: 200px;">
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+            <div class="border p-2">Align Items 1</div>
+        </div>
+        <br>
+        <h2>Bootstrap 5 Forms</h2>
+        <h2>Stacked form</h2>
+        <form action="/action_page.php">
+            <div class="mt-3 mb-3">
+                <h5><label for="email" class="ms-2 mb-2">Email:</label></h5>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+            </div>
+            <div class="mt-3 mb-3">
+                <h5><label for="password" class="ms-2 mb-2">Password:</label></h5>
+                <input type="password" class="form-control" id="password" placeholder="Enter Password" name="password">
+            </div>
+            <div class="form-check mt-3">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember">Remember me.
+                </label>
+            </div>
+            <button type="button" class="btn btn-outline-info mt-3">Submit</button>
+        </form>
+        <h2 class="mt-3">Text Area.</h2>
+        <form action="/action_page.php">
+            <div class="mt-3 mb-3">
+                <label for="comment" class="ms-2 mb-2">Comments Here..!</label>
+                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+            </div>
+            <button type="button" class="btn btn-outline-info">Submit Comments</button>
+        </form>
+    </div> 
+
+    <div class="container">
+        <h2 class="mt-3">Form Row/Grid (Inline Forms)</h2>
+        <p>If you want your form elements to appear side by side, use .row and .col:</p>
+        <div class="d-flex justify-content-center align-items-center">
+            <form>
+                <div class="email-password d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Enter your email" name="email">
+                        </div>
+                        <div class="col">
+                            <input type="password" class="form-control" placeholder="Enter your password" name="password">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Form Control Sizes:</h2>
+        <p>You can change the size of .form-control inputs with .form-control-lg or .form-control-sm:</p>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control form-control-lg" placeholder="large input" name="text">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Normal input" name="text">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control form-control-sm" placeholder="Small input" name="text">
+                </div>
+            </div>
+        </form>
+        <div class="cintainer mt-3">
+            <h2>Disabled and Readonly:</h2>
+            <form>
+                <input type="text" class="form-control mt-3" placeholder="normal text" name="text">
+                <input type="text" class="form-control mt-3" placeholder="disabled text" name="text" disabled>
+                <input type="text" class="form-control mt-3" placeholder="Readonly text" name="text" readonly>
+            </form>
+        </div>
+        <br>
+        <h2>Plaintext</h2>
+        <p>Use the .form-control-plaintext class to style an input field without borders, but with correct marigins and padding</p>
+        <form>
+            <input type="text" class="form-control" placeholder="Normal text" name="text">
+            <br>
+            <input type="text" class="form-control-plaintext" placeholder="plain text" name="text">
+        </form>
+        <br>
+        <h2>Color Picker</h2>
+        <p>To style an input with type="color" properly, use the .form-control-color class:</p>
+        <br>
+        <form>
+            <label for="myColor" class="form-label">Color Picker</label>
+            <input type="color" class="form-control form-control-color" id="myColor" value="#cccccc" title="chose a color">
+        </form>
+    </div>
+    <div class="container mt-3">
+        <h2>Select Menu</h2>
+        <form action="/action_page.php">
+            <label for="select1" class="form-label">Select list (select one):</label>
+            <select class="form-select" name="select1" id="select1">
+                <option>1.Sojon Mahamud</option>
+                <option>2.Tasfin Roy</option>
+                <option>3.Anushka Sharma</option>
+            </select>
+            <br>
+            <label for="select2" class="form-label">Mutiple select list (hold shift to select more than one):</label>
+            <select multiple class="form-select" id="select2" name="select2">
+                <option>1.Sojon</option>
+                <option>2.Mahamud</option>
+                <option>3.Tasfin</option>
+                <option>4.Roy</option>
+                <option>5.Kabir</option>
+            </select>
+        </form>
+        <br>
+        <button type="submit" class="btn btn-outline-info">Submit</button>
+        <br>
+        <h2>Select Menu Sizes:</h2>
+        <p>Use the .form-select-lg or .form-select-sm class to change the size of the select menu:</p>
+        <form action="/action_page.php">
+            <label for="select3" class="form-label">Select large size:</label>
+            <select class="form-select form-select-lg" name="select3" id="select3">
+                <option>1.Sojon Mahamud</option>
+                <option>2.Tasfin Roy</option>
+                <option>3.Anushka Sharma</option>
+            </select>
+            <br>
+            <label for="select3" class="form-label">Select Normal size:</label>
+            <select class="form-select" name="select3" id="select3">
+                <option>1.Sojon Mahamud</option>
+                <option>2.Tasfin Roy</option>
+                <option>3.Anushka Sharma</option>
+            </select>
+            <br>
+            <label for="select3" class="form-label">Select small size:</label>
+            <select class="form-select form-select-sm" name="select3" id="select3">
+                <option>1.Sojon Mahamud</option>
+                <option>2.Tasfin Roy</option>
+                <option>3.Anushka Sharma</option>
+            </select>
+            <br>
+            <h2>Data List:</h2>
+            <label for="browser" class="form-label">Choose your browser from the list:</label>
+            <input class="form-control" list="browsers" id="browser" name="browser">
+            <datalist id="browsers">
+                <option value="Sojon">
+                <option value="Mahamud">
+                <option value="Kabir">
+                <option value="Tasfin">
+                <option value="Jubayer">
+            </datalist>
+            <button type="submit" class="btn btn-outline-info mt-3">Submit</button>
+        </form>
+    </div>
+    <div class="container mt-3">
+        <h2>Check Boxes:</h2>
+        <p>Example Explained
+            To style checkboxes, use a wrapper element with class="form-check" to ensure proper margins for labels and checkboxes.
+
+            Then, add the .form-check-label class to label elements, and .form-check-input to style checkboxes properly inside the .form-check container.
+
+            Use the checked attribute if you want the checkbox to be checked by default.</p>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+            <label class="form-check-label" for="check1">Option 1</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="somethings">
+            <label class="form-check-label" for="check2">Option 2</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" disabled>
+            <label class="form-check-label">Option 3</label>
+        </div>
+        <button type="submit" class="btn btn-outline-danger mt-3">Submit</button>
+        <br>
+        <h2>Radio Buttons</h2>
+        <p>The form below contains three radio buttons. The first option is checked by default, and the last option is disabled:</p>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+            <label class="form-check-label" for="radio1">Option 1</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+            <label class="form-check-label" for="radio2">Option 2</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3" disabled>
+            <label class="form-check-label" for="radio3">Option 3</label>
+        </div>
+        <button type="submit" class="btn btn-outline-success mt-3">Submit</button>
+        <br>
+        <h2>Toggle Switch</h2>
+        <p>Try to submit the form with and without toggling the switch.</p>
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input" id="mySwitch" name="darkmode" value="yes" checked>
+            <label class="form-check-label" for="mySwitch">Dark Mode</label>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h2>Custom Range</h2>
+        <form action="/action_page.php">
+            <label class="form-label" for="customRange">Custom Range</label>
+            <input type="range" class="form-range" id="customRange" name="points">
+            <br>
+            <br>
+            <label class="form-lablel" for="customRange">Custom Range Set</label>
+            <input type="range" class="form-range" id="customRange" name="points" step="10">
+        </form>
+    </div>
+    <br>
+    <div class="container">
+        <h2>Input Groups</h2>
+        <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind the input field as a "help text".
+        Use the .input-group-text class to style the specified help text.</p>
+        <form action="/action_page.php">
+            <div class="input-group">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" placeholder="Enter your Username" name="username">
+            </div>
+            <div class="input-group mt-3">
+                <input type="text" class="form-control" placeholder="Enter your email" name="email">
+                <span class="input-group-text">@gmail.com</span>
+            </div>
+            <br>
+            <h2>Input Groups Size</h2>
+            <div class="input-group input-group-sm">
+                <input type="text" class="form-control" placeholder="small input" name="small">
+                <span class="input-group-text">Small size input group</span>
+            </div>
+            <div class="input-group mt-3">
+                <input type="text" class="form-control" placeholder="Normal size" name="normal">
+                <span class="input-group-text">Normal size input</span>
+            </div>
+            <div class="input-group input-group-lg mt-3">
+                <input type="text" class="form-control" placeholder="Lage size input" name="large">
+                <span class="input-group-text">Large size input groups</span>
+            </div>
+            <br>
+            <h2>Multiple Inputs and Helpers</h2>
+            <div class="input-group">
+                <span class="input-group-text">Person Name</span>
+                <input type="text" class="form-control" placeholder="First Name">
+                <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+            <div class="input-group mt-3">
+                <span class="input-group-text bg-danger">One</span>
+                <span class="input-group-text bg-warning">Two</span>
+                <span class="input-group-text bg-secondary">Three</span>
+                <input type="text" class="form-control">
+            </div>
+            <br>
+            <h2>Input groups with checkboxs and radios</h2>
+            <div class="input-group">
+                <div class="input-group-text">
+                    <input type="checkbox">
+                </div>
+                <input type="text" class="form-control" placeholder="Some Text">
+            </div>
+            <div class="input-group mt-3">
+                <div class="input-group-text">
+                    <input type="radio">
+                </div>
+                <input type="text" class="form-control" placeholder="Some Text">
+            </div>
+            <br>
+            <h2>input group with botton</h2>
+            <div class="input-group mt-3">
+                <button class="btn btn-outline-secondary" type="button">Group Button</button>
+                <input type="text" class="form-control" placeholder="Search Somethings">
+            </div>
+            <div class="input-group mt-3">
+                <input type="text" class="form-control" placeholder="Search">
+                <button type="submit" class="btn btn-outline-danger">Go</button>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <h2>Input group with dropdown</h2>
+        <div class="input-group mt-3">
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown Button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Sojon</a></li>
+                <li><a class="dropdown-item" href="#">Mahamud</a></li>
+                <li><a class="dropdown-item" href="#">Tasfin</a></li>
+            </ul>
+            <input type="text" class="form-control" placeholder="Usernames">
+            <button type="submit" class="btn btn-outline-warning">Submit</button>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <h2>Floating Lavel inputs..</h2>
+        <form action="/action_page.php">
+            <div class="form-floating mt-3 mb-3">
+                <input type="text" class="form-control" id="email" placeholder="Enter Email" name="email">
+                <label for="email">Email</label>
+            </div>
+            <div class="form-floating mt-3 mb-3">
+                <input type="text" class="form-control" id="password" placeholder="Enter your password" name="password">
+                <label for="password">Password</label>
+            </div>
+            <button type="submit" class="btn btn-outline-danger">Submit</button>
+            <br>
+            <h2>Text Area</h2>
+            <div class="form-floating mt-3 mb-3">
+                <textarea class="form-control" id="text" name="text" placeholder="Comments goes here.."></textarea>
+                <label for="text">Comments</label>
+            </div>
+            <br>
+            <h2>Floating lavel select</h2>
+            <div class="form-floating mt-3 mb-3">
+                <select class="form-select" id="sel1" name="sel1">
+                    <option>Sojon</option>
+                    <option>Mahamud</option>
+                    <option>Tasfin</option>
+                    <option>Roy</option>
+                </select>
+                <label class="form-label" for="sel1"> Select Any one...</label>
+            </div>
+        </form>
+        <br>
+        <br>
+        <h2>Form Validation.</h2>
+        <p>You can use different validation classes to provide valuable feedback to users. Add either <mark>.was-validated</mark> or <mark>.needs-validation</mark> to the form element, depending on whether you want to provide validation feedback before or after submitting the form. The input fields will have a green (valid) or red (invalid) border to indicate what's missing in the form. You can also add a <mark>.valid-feedback</mark> or <mark>.invalid-feedback</mark> message to tell the user explicitly what's missing, or needs to be done before submitting the form.</p>
+        <form action="/action_page.php" class="was-validated">
+            <div class="mt-3">
+                <label for="username" class="form-label">Username :</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter Username" required>
+                <div class="valid-feedback">Valid Username</div>
+                <div class="invalid-feedback">Please fill out this field..</div>
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="password" class="form0-label">Password :</label>
+                <input type="text" class="form-control" id="password" name="password" placeholder="Enter Password" required>
+                <div class="valid-feedback">Valid Password</div>
+                <div class="invalid-feedback">Invalid Password</div>
+            </div>
+            <br>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="myCheck" name="myCheck" required>
+                <label class="form-check-label" for="myCheck">I agreed this condition</label>
+                <div class="valid-feedback">Valid</div>
+                <div class="invalid-feedback">Check the Checkbox to continue</div>
+            </div>
+        </form>
+    </div>
+    <div class="container mt-3">
+        <h2>Basics Grid Structure.</h2>
+        <div class="row">
+            <div class="col-sm-6 bg-info text-white">50%</div>
+            <div class="col-sm-6 bg-secondary text-white">50%</div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4 bg-info text-white">33.33%</div>
+            <div class="col-md-4 bg-secondary text-white">33.33%</div>
+            <div class="col-md-4 bg-info text-white">33.33%</div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg bg-info text-white">25%</div>
+            <div class="col-lg bg-secondary text-white">25%</div>
+            <div class="col-lg bg-info text-white">25%</div>
+            <div class="col-lg bg-secondary text-white">25%</div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col bg-info text-white">25%</div>
+            <div class="col bg-secondary text-white">25%</div>
+            <div class="col bg-info text-white">25%</div>
+            <div class="col bg-secondary text-white">25%</div>
+        </div>
+    </div>
+    <br>
+    <div class="container mt-3 mb-3">
+        <h2>Grid Example: Stacked-to-horizontal</h2>
+        <br>
+        <div class="row">
+            <div class="col-sm-6 bg-warning p-3 text-white">
+                Sojon Mahamud
+            </div>
+            <div class="col-sm-6 bg-danger p-3 text-white">
+                Tasfin Roy
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm bg-warning text-white p-3">Sojon Mahamud</div>
+            <div class="col-md bg-danger text-white p-3">Tasfin Roy</div>
+            <div class="col-lg bg-info text-white p-3">Minhaz Uddin</div>
+            <div class="col-xl bg-secondary text-white p-3">Al amin</div>
+        </div>
+        <br>
+        <h2>Extra small grid example</h2>
+        <div class="row">
+            <div class="col-3 bg-warning text-white p-3">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae sit veniam facilis possimus exercitationem. Sapiente corrupti possimus deleniti velit obcaecati hic, doloremque et perferendis corporis ipsum animi doloribus? Voluptate, nulla?
+            </div>
+            <div class="col-9 bg-info text-white p-3">
+                Sojon Mahamud
+            </div>
+        </div> 
+        <br>
+        <h2>Row Cols</h2>
+        <p>You can also control how many columns that should appear next to each other (regardless of how many cols), with the <mark>.row-cols-*</mark> classes:</p>
+        <div class="row row-cols-1">
+            <div class="col bg-success text-white p-2">Row-cols-1</div>
+            <div class="col bg-danger text-white p-2">Row-cols-1</div>
+        </div>
+        <br>
+        <div class="row row-cols-2">
+            <div class="col bg-success text-white p-2">Row-cols-2</div>
+            <div class="col bg-danger text-white p-2">Row-cols-2</div>
+            <div class="col bg-success text-white p-2">Row-cols-2</div>
+            <div class="col bg-danger text-white p-2">Row-cols-2</div>
+        </div> 
+        <br>
+        <div class="row row-cols-3">
+            <div class="col bg-success text-white p-2">Row-cols-3</div>
+            <div class="col bg-danger text-white p-2">Row-cols-3</div>
+            <div class="col bg-success text-white p-2">Row-cols-3</div>
+            <div class="col bg-danger text-white p-2">Row-cols-3</div>
+            <div class="col bg-success text-white p-2">Row-cols-3</div>
+            <div class="col bg-danger text-white p-2">Row-cols-3</div>
+        </div> 
+        <br>
+        <h2>Nested Colums</h2>
+        <div class="row">
+            <div class="col-8 bg-info text-white p-4">
+                Sojon
+                <div class="row">
+                    <div class="col-6 bg-success text-white p-2">Sojon</div>
+                    <div class="col-6 bg-secondary text-white p-2">Mahamud</div>
+                </div>
+            </div>
+            <div class="col-4 bg-warning text-white p-4">Mahamud</div>
+        </div>     
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Java Script for Tooltips-->
+    <script>
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('      [data-bs-toggle="tooltip"]'))
+            tooltipTriggerList.map(function (el) {
+            return new bootstrap.Tooltip(el)
+        })
+    </script>
+    <!--Java Script for the Popover-->
+    <script>
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+    <!--java Script for Toast Button-->
+    <script>
+        document.getElementById("toastbtn").onclick = function() {
+        var toastEl = document.querySelector('.toast');
+        var toast = new bootstrap.Toast(toastEl);
+        toast.show();
+        }
+</script>
+
+</body>
+</html>
